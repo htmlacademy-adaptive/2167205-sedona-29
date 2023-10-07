@@ -1,12 +1,164 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
 
-  </body>
+<body class="body">
+  <header class="body__header header">
+    <a href="" class="header__logo"></a>
+    <nav class="header__nav header-nav">
+      <button class="header-nav__toggle toggle toggle--cross">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <ul class="header-nav__list nav-list">
+        <li class="nav-list__item">
+          <a href="inex.html" class="nav-list__item-link">Главная</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="gallery.html" class="nav-list__item-link">Фото и видео</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="form.html" class="nav-list__item-link">Форма Отзыва</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="https://htmlacademy.ru/intensive/adaptive" class="nav-list__item-link">HTML ACADEMY</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="header__intro intro">
+      <div class="intro__text-container"></div>
+    </section>
+  </header>
+
+  <main class="body__main main">
+    <h1 class="visually-hidden">Седона - путеводитель и поиск отелей</h1>
+    <section class="main__about about">
+      <div class="about__text-container">
+        <h2 class="about__title">СЕДОНА — небольшой городок в АРИЗОНЕ, заслуживающий большего!</h2>
+        <p class="about__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+      </div>
+      <ul class="about__list advantages">
+        <li class="about__item advantages__card">
+          <div class="advantages__text-wrapper">
+            <h3 class="advantages__title">Настоящий городок</h3>
+            <p class="advantages__number">— №1 —</p>
+            <p class="advantages__notation">Седона не аттракцион для туристов, там течет своя жизнь</p>
+          </div>
+          <div class="advatages__image-wrapper">
+            <picture>
+            </picture>
+          </div>
+        </li>
+
+        <li class="about__item advantages__card comfort">
+          <ul class="comfort__list">
+            <li class="comfort__item--housing">
+              <div class="comfort__text-wrapper">
+                <h3 class="comfort__title">Жилье</h3>
+                <p class="comfort__notation">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+              </div>
+            </li>
+            <li class="comfort__item--food">
+              <div class="comfort__text-wrapper">
+                <h3 class="comfort__title">Еда</h3>
+                <p class="comfort__notation">Всегда заказывайте фирменный бургер, Вы не разочаруетесь!/p>
+              </div>
+            </li>
+            <li class="comfort__item--souvenirs">
+              <div class="comfort__text-wrapper">
+                <h3 class="comfort__title">Сувениры</h3>
+                <p class="comfort__notation">Не только китайского, но и местного производства!</p>
+              </div>
+            </li>
+          </ul>
+        </li>
+
+        <li class="about__item advantages__card">
+          <div class="advantages__text-wrapper">
+            <h3 class="advantages__title">Там есть мост дьявола</h3>
+            <p class="advantages__number">— №2 —</p>
+            <p class="advantages__notation">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+          </div>
+          <div class="advatages__image-wrapper">
+            <picture>
+            </picture>
+          </div>
+        </li>
+
+        <li class="about__item">
+          <div class="advantages__text-wrapper">
+            <h3 class="advantages__title">Небольшая площадь</h3>
+            <p class="advantages__number">— №3 —</p>
+            <p class="advantages__notation">Все интересные места находятся очень близко</p>
+          </div>
+        </li>
+        <li class="about__item">
+          <div class="advantages__text-wrapper">
+            <h3 class="advantages__title">Красивая дорога</h3>
+            <p class="advantages__number">— №4 —</p>
+            <p class="advantages__notation">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </div>
+        </li>
+        <li class="about__item"><div class="advantages__text-wrapper">
+          <h3 class="advantages__title">Мало туристов</h3>
+          <p class="advantages__number">— №5 —</p>
+          <p class="advantages__notation">Большинство едет в гранд каньон и толпится там</p>
+        </div></li>
+      </ul>
+    </section>
+    <section class="main__search search">
+      <h2 class="search__title">Заинтересовались?</h2>
+      <p class="search__notation">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+      <a href="#" class="search__link-buttonbutton">Найти гостиницу</a>
+    </section>
+    <section class="main__map map">
+      <div class="map__wrapper">
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="body__footer footer">
+    <ul class="footer__list">
+      <li class="footer__item footer-logo">
+        <a href="#" class="footer-logo__link">
+          <svg></svg>
+        </a>
+      </li>
+      <li class="footer__item social-links">
+        <ul class="social-links__list">
+          <li class="social-links__item">
+            <a href="#" class="social-links__link">
+              <p class="visually-hidden">Мы в вконтакте</p>
+              <svg></svg>
+            </a>
+          </li>
+          <li class="social-links__item">
+            <a href="#" class="social-links__link">
+              <p class="visually-hidden">Мы в телеграм</p>
+              <svg></svg>
+            </a>
+          </li>
+          <li class="social-links__item">
+            <a href="#" class="social-links__link">
+              <p class="visually-hidden">Мы в ютуб</p>
+              <svg></svg>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer__item autor">
+        <a href="" class="author__link">
+          <p class="autor__name">Разработано</p>
+          <svg></svg>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+</body>
+
 </html>
